@@ -1,0 +1,30 @@
+{
+  "name": "react-css-modules-postcss-jspm-example",
+  "version": "0.0.1",
+  "description": "React + CSS Modules written in PostCSS and compiled using JSPM",
+  "author": "Adam Johnston",
+  "license": "MIT",
+  "homepage": "https://github.com/adjohnston/react-css-modules-postcss-jspm-example#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adjohnston/react-css-modules-postcss-jspm-example.git"
+  },
+  "dependencies": {
+    "jspm": "^0.16.19"
+  },
+  "devDependencies": {},
+  "jspm": {
+    "dependencies": {
+      "css": "npm:jspm-loader-css@^1.0.1-beta1",
+      "postcss": "npm:postcss@^5.0.14",
+      "postcss-spiffing": "npm:postcss-spiffing@^0.0.6",
+      "react": "npm:react@^0.14.6",
+      "react-dom": "npm:react-dom@^0.14.6"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
