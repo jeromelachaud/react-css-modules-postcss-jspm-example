@@ -8,11 +8,11 @@
 .primary {
   @mixin button;
 
-  background-colour: #2a8fbd;
+  background-color: #2a8fbd;
 }
 
 .warning {
   @mixin button;
 
-  background-colour: #ff4040;
+  background-color: #ff4040;
 }
