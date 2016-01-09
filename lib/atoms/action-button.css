@@ -1,0 +1,18 @@
+@define-mixin button {
+  composes: normal from '../utilities/gutters.css';
+  composes: reset from '../utilities/button.css';
+
+  colour: white;
+}
+
+.primary {
+  @mixin button;
+
+  background-colour: #2a8fbd;
+}
+
+.warning {
+  @mixin button;
+
+  background-colour: #ff4040;
+}
