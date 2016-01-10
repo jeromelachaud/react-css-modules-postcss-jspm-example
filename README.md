@@ -15,7 +15,9 @@ React + CSS Modules written in PostCSS and compiled using JSPM.
 Don't use PostCSS Mixin. CSS Modules handling composition much better. See screenshots.
 
 Without a mixin
+
 ![alt tag](https://raw.githubusercontent.com/adjohnston/react-css-modules-postcss-jspm-example/master/img/without-mixin.gif)
 
 Using a mixin
+
 ![alt tag](https://raw.githubusercontent.com/adjohnston/react-css-modules-postcss-jspm-example/master/img/with-mixin.gif)
