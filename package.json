@@ -17,7 +17,6 @@
     "dependencies": {
       "jspm-loader-css": "npm:jspm-loader-css@^1.0.1-beta1",
       "postcss": "npm:postcss@^5.0.14",
-      "postcss-mixins": "npm:postcss-mixins@^3.0.2",
       "postcss-spiffing": "npm:postcss-spiffing@^0.0.6",
       "react": "npm:react@^0.14.6",
       "react-dom": "npm:react-dom@^0.14.6"

@@ -19,7 +19,6 @@ System.config({
     "core-js": "npm:core-js@1.2.6",
     "jspm-loader-css": "npm:jspm-loader-css@1.0.1-beta1",
     "postcss": "npm:postcss@5.0.14",
-    "postcss-mixins": "npm:postcss-mixins@3.0.2",
     "postcss-spiffing": "npm:postcss-spiffing@0.0.6",
     "react": "npm:react@0.14.6",
     "react-dom": "npm:react-dom@0.14.6",
@@ -53,9 +52,6 @@ System.config({
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:array-union@1.0.1": {
-      "array-uniq": "npm:array-uniq@1.0.2"
-    },
     "npm:asap@2.0.3": {
       "domain": "github:jspm/nodelibs-domain@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
@@ -65,10 +61,6 @@ System.config({
     },
     "npm:babel-runtime@5.8.34": {
       "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:brace-expansion@1.1.2": {
-      "balanced-match": "npm:balanced-match@0.3.0",
-      "concat-map": "npm:concat-map@0.0.1"
     },
     "npm:buffer@3.6.0": {
       "base64-js": "npm:base64-js@0.0.8",
@@ -132,34 +124,8 @@ System.config({
       "ua-parser-js": "npm:ua-parser-js@0.7.10",
       "whatwg-fetch": "npm:whatwg-fetch@0.9.0"
     },
-    "npm:glob@6.0.4": {
-      "assert": "github:jspm/nodelibs-assert@0.1.0",
-      "events": "github:jspm/nodelibs-events@0.1.1",
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "inflight": "npm:inflight@1.0.4",
-      "inherits": "npm:inherits@2.0.1",
-      "minimatch": "npm:minimatch@3.0.0",
-      "once": "npm:once@1.3.3",
-      "path": "github:jspm/nodelibs-path@0.1.0",
-      "path-is-absolute": "npm:path-is-absolute@1.0.0",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "util": "github:jspm/nodelibs-util@0.1.0"
-    },
-    "npm:globby@4.0.0": {
-      "array-union": "npm:array-union@1.0.1",
-      "arrify": "npm:arrify@1.0.1",
-      "glob": "npm:glob@6.0.4",
-      "object-assign": "npm:object-assign@4.0.1",
-      "pify": "npm:pify@2.3.0",
-      "pinkie-promise": "npm:pinkie-promise@2.0.0"
-    },
     "npm:has-flag@1.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:inflight@1.0.4": {
-      "once": "npm:once@1.3.3",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "wrappy": "npm:wrappy@1.0.1"
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
@@ -187,45 +153,12 @@ System.config({
       "stream": "github:jspm/nodelibs-stream@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
-    "npm:minimatch@3.0.0": {
-      "brace-expansion": "npm:brace-expansion@1.1.2",
-      "path": "github:jspm/nodelibs-path@0.1.0"
-    },
-    "npm:once@1.3.3": {
-      "wrappy": "npm:wrappy@1.0.1"
-    },
     "npm:path-browserify@0.0.0": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:path-is-absolute@1.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:path@0.12.7": {
       "process": "npm:process@0.11.2",
       "util": "npm:util@0.10.3"
-    },
-    "npm:pify@2.3.0": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:pinkie-promise@2.0.0": {
-      "pinkie": "npm:pinkie@2.0.1"
-    },
-    "npm:pinkie@2.0.1": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:postcss-js@0.1.1": {
-      "camelcase-css": "npm:camelcase-css@1.0.0",
-      "postcss": "npm:postcss@5.0.14",
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:postcss-mixins@3.0.2": {
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "globby": "npm:globby@4.0.0",
-      "path": "github:jspm/nodelibs-path@0.1.0",
-      "postcss": "npm:postcss@5.0.14",
-      "postcss-js": "npm:postcss-js@0.1.1",
-      "postcss-simple-vars": "npm:postcss-simple-vars@1.2.0",
-      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:postcss-modules-extract-imports@1.0.0": {
       "postcss": "npm:postcss@5.0.10",
@@ -243,9 +176,6 @@ System.config({
     "npm:postcss-modules-values@1.1.0": {
       "icss-replace-symbols": "npm:icss-replace-symbols@1.0.2",
       "postcss": "npm:postcss@5.0.10"
-    },
-    "npm:postcss-simple-vars@1.2.0": {
-      "postcss": "npm:postcss@5.0.14"
     },
     "npm:postcss-spiffing@0.0.6": {
       "postcss": "npm:postcss@4.1.16"

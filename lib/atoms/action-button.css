@@ -1,4 +1,4 @@
-@define-mixin button {
+.button {
   composes: normal from '../utilities/gutters.css';
   composes: reset from '../utilities/button.css';
 
@@ -6,13 +6,13 @@
 }
 
 .primary {
-  @mixin button;
+  composes: button;
 
   background-colour: #2a8fbd;
 }
 
 .warning {
-  @mixin button;
+  composes: button;
 
   background-colour: #ff4040;
 }
