@@ -9,7 +9,8 @@ React + CSS Modules written in PostCSS and compiled using JSPM.
   - Install JSPM dependencies including React, PostCSS + Plugins & JSPM Loader CSS.
 
 ## Run
-- `npm run server` this will start a jspm-server instance with live-reload enabled on all files loaded with SystemJS
+- `npm run server` 
+  - this will start a jspm-server instance with live-reload enabled on all files loaded with SystemJS
 
 ## Notes
 Don't use PostCSS Mixin. CSS Modules handling composition much better. See screenshots.
