@@ -10,13 +10,9 @@
     "url": "git+https://github.com/adjohnston/react-css-modules-postcss-jspm-example.git"
   },
   "scripts": {
-    "server": "jspm-server"
   },
   "dependencies": {
     "jspm": "^0.16.19"
-  },
-  "devDependencies": {
-    "jspm-server": "^1.0.1"
   },
   "jspm": {
     "dependencies": {
